@@ -26,8 +26,8 @@ $Status | ?{$_.ODBSyncStatus -match "Not"} | Out-GridView
 
 Sample Output:
 ```
-FullName																	ODBSyncStatus        
---------																	-------------        
+FullName                                                                    ODBSyncStatus        
+--------                                                                    -------------        
 C:\Users\sujeetkumar\.849C9593-D756-4E56-8D6E-42412F2A707B                 Excluded (not synced)
 C:\Users\sujeetkumar\desktop.ini                                           Excluded (not synced)
 C:\Users\sujeetkumar\Desktop\desktop.ini                                   Excluded (not synced)
